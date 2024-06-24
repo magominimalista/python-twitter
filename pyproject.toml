@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "python-twitter"
+version = "0.1.0"
+description = "A project using FastAPI for Twitter trends retrieval and MongoDB for storage."
+authors = ["Mago Minimalista <contato@magominimalista.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+pymongo = "^4.7.3"
+tweepy = "^4.14.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.2.2"
+flake8 = "^7.1.0"
+black = "^24.4.2"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
