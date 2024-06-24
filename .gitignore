@@ -1,2 +1,4 @@
 poetry.lock
 src/secrets.py
+__pycache__
+.idea
