@@ -1,7 +1,7 @@
 # Python Twitter Trends
 
-Este projeto utiliza FastAPI para recuperar tendências do Twitter e armazená-las no MongoDB.
-
+Este projeto utiliza FastAPI para recuperar tendências do Twitter e armazená-las no MongoDB. 
+<br><i>| <b>AVISO:</b> Quando baixar o projeto renomeie secrets.example.py para secrets.py e coloque suas credenciais.</i>
 ## Requisitos
 
 - Docker
